@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div class="container">
+    <a href="https://www.twitch.tv/aririthegreat" class="container">
       <div class="window">
         <div class="box">
           <span></span>
@@ -47,6 +47,6 @@ export default function Home() {
         </div>
       </div>
       <img class="ari-img" src="https://cdn.discordapp.com/attachments/805499573555822612/933628890100949002/ready_steady_ari.png" />
-    </div>
+    </a>
   )
 }

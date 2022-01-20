@@ -18,9 +18,10 @@ html, body {
 }
 
 .ari-img {
-  position: absolute;
-  top: -4%;
-  right: 62%;
+    position: absolute;
+    top: 14%;
+    height: 700px;
+    right: 50%;
 }
 
 .window {
@@ -138,7 +139,11 @@ html, body {
   padding: 0.3rem;
 }
 
-.box .row > div:last-child {
+.box .row .time {
+  text-align: center;
+}
+
+.box .row .activity {
   float: right;
 }
 

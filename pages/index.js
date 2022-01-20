@@ -14,36 +14,43 @@ export default function Home() {
             <p>All times in PST</p>
             <div class="row">
               <div class="day">Monday</div>
-              <div>Rest</div>
+              <div class="time">8pm PST</div>
+              <div class="activity">Rest</div>
             </div>
             <div class="row">
               <div class="day">Tuesday</div>
-              <div>Rest</div>
+              <div class="time">8pm PST</div>
+              <div class="activity">Rest</div>
             </div>
             <div class="row">
               <div class="day">Wednesday</div>
-              <div>Rest</div>
+              <div class="time">8pm PST</div>
+              <div class="activity">Rest</div>
             </div>
             <div class="row">
               <div class="day">Thursday</div>
-              <div>Rest</div>
+              <div class="time">8pm PST</div>
+              <div class="activity">Rest</div>
             </div>
             <div class="row">
               <div class="day">Friday</div>
-              <div>Rest</div>
+              <div class="time">8pm PST</div>
+              <div class="activity">Rest</div>
             </div>
             <div class="row">
               <div class="day">Saturday</div>
-              <div>Rest</div>
+              <div class="time">8pm PST</div>
+              <div class="activity">Rest</div>
             </div>
             <div class="row">
               <div class="day">Sunday</div>
-              <div>Rest</div>
+              <div class="time">8pm PST</div>
+              <div class="activity">Rest</div>
             </div>
           </div>
         </div>
       </div>
-      <img class="ari-img" src="https://lh5.googleusercontent.com/OLfdJp5qiLb58EAiuGuJboCo18XIbaGSfdy4qMagLtRligN6w_MhyR3SWa-bLKiOxjLdIpdmzk5pFHBq-011=w1719-h635-rw" />
+      <img class="ari-img" src="https://cdn.discordapp.com/attachments/805499573555822612/933628890100949002/ready_steady_ari.png" />
     </div>
   )
 }

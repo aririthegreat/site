@@ -1,7 +1,3 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-
 export default function Home() {
   return (
     <div class="container">
@@ -30,12 +26,12 @@ export default function Home() {
             <div class="row">
               <div class="day">Thursday</div>
               <div class="time">8pm PST</div>
-              <div class="activity">Rest</div>
+              <div class="activity">Slay the Spire</div>
             </div>
             <div class="row">
               <div class="day">Friday</div>
               <div class="time">8pm PST</div>
-              <div class="activity">Rest</div>
+              <div class="activity">Yakuza 0</div>
             </div>
             <div class="row">
               <div class="day">Saturday</div>
@@ -45,7 +41,7 @@ export default function Home() {
             <div class="row">
               <div class="day">Sunday</div>
               <div class="time">8pm PST</div>
-              <div class="activity">Rest</div>
+              <div class="activity">Game Demos</div>
             </div>
           </div>
         </div>

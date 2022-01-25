@@ -33,8 +33,7 @@ export default function Home() {
           <span></span>
           <span></span>
           <div class="content">
-            <h2>Schedule for January 16-22</h2>
-            <p>All times in PST</p>
+            <h2>Schedule for January 23-29</h2>
             <div class="row">
               <div class="day">Monday</div>
               <div class="time">{generatePstTimesArray[20]}</div>
@@ -62,7 +61,7 @@ export default function Home() {
             </div>
             <div class="row">
               <div class="day">Saturday</div>
-              <div class="time">{generatePstTimesArray[13]</div>
+              <div class="time">{generatePstTimesArray[13]}</div>
               <div class="activity">1 Year Anniversary Stream</div>
             </div>
             <div class="row">

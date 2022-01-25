@@ -1,4 +1,5 @@
-const generatePstTimesArray = function(daylightSavings = false) {
+export default function Home() {
+  const generatePstTimesArray = function(daylightSavings = false) {
   const UTC_TO_PST = daylightSavings ? '-07:00' : '-08:00';
   let times = [];
   for(let h = 0; h < 24; h++) {
@@ -24,8 +25,6 @@ const generatePstTimesArray = function(daylightSavings = false) {
   }
   return times;
 }
-
-export default function Home() {
   return (
     <a href="https://www.twitch.tv/aririthegreat" class="container">
       <div class="window">
@@ -57,7 +56,7 @@ export default function Home() {
             <div class="row">
               <div class="day">Friday</div>
               <div class="time">{generatePstTimesArray[18]}</div>
-              <div class="activity">Vtuber Alignment Chart w/ FuwaPaw, KittyMennieVT, NezumiTube</div>
+              <div class="activity">Vtuber Alignment Chart w/ Fuwa, Kitty, Zumi</div>
             </div>
             <div class="row">
               <div class="day">Saturday</div>

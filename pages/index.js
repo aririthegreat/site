@@ -66,7 +66,7 @@ export default function Home() {
             </div>
             <div class="row">
               <div class="day">Sunday</div>
-              <div class="time">{generatePstTimesArray[20]</div>
+              <div class="time">{generatePstTimesArray[20]}</div>
               <div class="activity">Rest</div>
             </div>
           </div>

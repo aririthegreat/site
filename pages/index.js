@@ -37,37 +37,37 @@ export default function Home() {
             <p>All times in PST</p>
             <div class="row">
               <div class="day">Monday</div>
-              <div class="time">{times[20]}</div>
+              <div class="time">{generatePstTimesArray[20]}</div>
               <div class="activity">Rest</div>
             </div>
             <div class="row">
               <div class="day">Tuesday</div>
-              <div class="time">{times[20]}</div>
+              <div class="time">{generatePstTimesArray[20]}</div>
               <div class="activity">The Two of Us w/ VincentFaust</div>
             </div>
             <div class="row">
               <div class="day">Wednesday</div>
-              <div class="time">{times[20]}</div>
+              <div class="time">{generatePstTimesArray[20]}</div>
               <div class="activity">Rest</div>
             </div>
             <div class="row">
               <div class="day">Thursday</div>
-              <div class="time">{times[20]}</div>
+              <div class="time">{generatePstTimesArray[20]}</div>
               <div class="activity">Slay the Spire</div>
             </div>
             <div class="row">
               <div class="day">Friday</div>
-              <div class="time">{times[18]}</div>
+              <div class="time">{generatePstTimesArray[18]}</div>
               <div class="activity">Vtuber Alignment Chart w/ FuwaPaw, KittyMennieVT, NezumiTube</div>
             </div>
             <div class="row">
               <div class="day">Saturday</div>
-              <div class="time">{times[13]</div>
+              <div class="time">{generatePstTimesArray[13]</div>
               <div class="activity">1 Year Anniversary Stream</div>
             </div>
             <div class="row">
               <div class="day">Sunday</div>
-              <div class="time">{times[20]</div>
+              <div class="time">{generatePstTimesArray[20]</div>
               <div class="activity">Rest</div>
             </div>
           </div>
